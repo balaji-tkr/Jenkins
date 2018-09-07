@@ -1,2 +1,2 @@
 # Jenkins
-HelloApp using Jenkins
+Jenkins Basic
