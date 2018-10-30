@@ -1,5 +1,5 @@
 @Library('jenkins-SL')_
-/*pipeline {
+pipeline {
     agent any
     stages {
         stage('Build') { 
@@ -9,5 +9,5 @@
             }
         }
     }
- }*/
+ }
 
