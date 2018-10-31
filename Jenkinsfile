@@ -1,5 +1,5 @@
 @Library('demo-SL@master')_
-evenOrOdd(currentBuild.getNumber())
+mvnInstall(currentBuild.getresult())
 
 
 
