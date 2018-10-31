@@ -1,5 +1,11 @@
-@Library('jenkins-SL')_
-pipeline {
+@Library('demo-SL@master')_
+evenOrOdd(currentBuild.getNumber())
+
+
+
+
+
+/*pipeline {
     agent any
     stages {
         stage('Build') { 
@@ -9,5 +15,5 @@ pipeline {
             }
         }
     }
- }
+ }*/
 
