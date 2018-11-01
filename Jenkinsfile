@@ -1,2 +1,3 @@
 @Library('demo-SL@master')_
-mvnInstall(currentBuild.getResult())
+//mvnInstall(currentBuild.getResult())
+mvnCompile(currentBuild.getResult())
