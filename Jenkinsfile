@@ -5,7 +5,6 @@ pipeline{
     stages{
       stage('compile'){
         steps{
-//mvnCompile(currentBuild.getResult())
   mvnInstall(currentBuild.getResult())
         }
       }
